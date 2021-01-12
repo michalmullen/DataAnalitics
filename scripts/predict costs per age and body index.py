@@ -53,7 +53,7 @@ cost = b0 + b1 * float(sys.argv[1]) + b2 * float(sys.argv[2])
 
 print("coeficient intercept: " + str(b0))
 print("coeficient age: " + str(b1))
-print("coeficient bmi: " + str(b2)  )
+print("coeficient bmi: " + str(b2))
 
 print("The expected insurance costs for a " + sys.argv[1] + " years old customer with body mass index of " + sys.argv[2] + " is: " + str(cost))
 

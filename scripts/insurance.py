@@ -1,8 +1,10 @@
-import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 
 dataset = pd.read_csv('../datasets/insurance.csv')
+
+
 X = dataset.iloc[:, :-6].values
 y = dataset.iloc[:, 6].values
 print(dataset.iloc[:, :-6].values)
